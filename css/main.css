@@ -277,13 +277,6 @@
     cursor: pointer;
   }
   
-  /* 100% Modal Width on Smaller Screens */
-  @media only screen and (max-width: 700px){
-    .modal-content {
-      width: 100%;
-    }
-  }
-  
   #hire-me {
     color: #f4f9fc;
     background-color: #351D77;
@@ -466,18 +459,18 @@
     padding: 14px 16px;
     margin: 5px 5px;
     background-color: #F19494;
+    color: #152A3E;
     cursor: pointer;
   }
   
-  /* Add a grey background color on mouse-over */
   .btn:hover {
     background-color: #72c2c2;
   }
   
-  /* Add a dark background color to the active button */
+
   .btn.active {
     background-color: #152A3E;
-     color: white;
+    color: white;
   }
   
   .arrows {
@@ -746,14 +739,38 @@
      Modify as content requires.
      ========================================================================== */
   
+  /* 100% Modal Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
   @media only screen and (min-width: 768px) {
   
   .row {
     display: flex;
-    flex-wrap: row wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
   }
   
+  .content {
+    width: 330px;
+  }
+
+  #button-56 {
+    padding: 0 40px;
+  }
   
+  }
+
+  @media only screen and (min-width: 1200px) {
+
+    .content {
+      width: 320px;
+    }
+
   }
   
   @media print,
