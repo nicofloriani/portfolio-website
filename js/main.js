@@ -71,6 +71,7 @@ var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("hire-me");
+var myBtn = document.getElementById("myBtn");
 var buttonTwo = document.getElementById("button-56");
 
 img.onclick = function(){
@@ -78,6 +79,7 @@ img.onclick = function(){
 }
 buttonTwo.onclick = function(){
   modal.style.display = "block";
+  myBtn.style.display = "none";
 }
 
 // Get the <span> element that closes the modal
