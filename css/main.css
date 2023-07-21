@@ -173,7 +173,7 @@
   
   header nav ul {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
     justify-content: space-around;
     width: 100%;
   }
