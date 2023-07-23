@@ -305,8 +305,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
   }
-  
+
   footer .social p {
     display: flex;
     justify-content: center;
@@ -315,6 +316,13 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    margin-top: 25px;
+  }
+
+  .fa-linkedin-in {
+    color: #351D77;
+    background-color: #f4f9fc;
+    padding: 2px;
   }
   
   footer .social-icons p i {
