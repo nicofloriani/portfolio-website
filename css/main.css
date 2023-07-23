@@ -88,6 +88,7 @@
      ========================================================================== */
   html {
     font-size: 16px;
+    scroll-behavior: smooth; 
   }
      
   body {
@@ -292,7 +293,7 @@
   }
   
   footer .content-wrapper {
-    width: 55%;
+    width: 75%;
     margin: 50px 0;
   }
   
@@ -346,6 +347,7 @@
     padding: 15px;
     border-radius: 15px;
     content: "\f077";
+    opacity: 0.7;
   }
   
   #myBtn:hover {
@@ -416,7 +418,7 @@
     margin: 8px -16px;
   }
   
-  /* Add padding BETWEEN each column (if you want) */
+  /* Add padding BETWEEN each column */
   .row,
   .row > .column {
     padding: 15px 0;
@@ -524,6 +526,7 @@
   #about {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1010%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(201%2c 227%2c 255%2c 0.37)'%3e%3c/rect%3e%3cpath d='M 0%2c400 C 57.6%2c373.8 172.8%2c271.4 288%2c269 C 403.2%2c266.6 460.8%2c426.8 576%2c388 C 691.2%2c349.2 748.8%2c64 864%2c75 C 979.2%2c86 1036.8%2c412 1152%2c443 C 1267.2%2c474 1382.4%2c272.6 1440%2c230L1440 560L0 560z' fill='rgba(153%2c 185%2c 218%2c 0.26)'%3e%3c/path%3e%3cpath d='M 0%2c339 C 96%2c320.4 288%2c204.2 480%2c246 C 672%2c287.8 768%2c597.2 960%2c548 C 1152%2c498.8 1344%2c109.6 1440%2c0L1440 560L0 560z' fill='rgba(244%2c 249%2c 252%2c 0.55)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1010'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
     margin-top: 300px;
+    width: 90%;
   }
   
   #about h3 {
@@ -531,7 +534,8 @@
   }
   
   .about-p {
-    padding-top: 40px;
+    padding: 40px 15px;
+    text-align: left;
   }
   
   #button-56 {
@@ -768,7 +772,11 @@
   @media only screen and (min-width: 1200px) {
 
     .content {
-      width: 320px;
+      width: 400px;
+    }
+
+    #about {
+      width: 70%;
     }
 
   }
