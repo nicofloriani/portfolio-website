@@ -38,37 +38,39 @@
       </nav>
     </div>
   </header>
-<!-- Trigger the Modal -->
-<!-- The Modal -->
-<div id="myModal" class="modal">
+  <!-- Trigger the Modal -->
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
 
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
 
-  <!-- Modal Content (The Image) -->
+    <!-- Modal Content (The Image) -->
 
-  <div class="contact-form">
-    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xrgwgjzz" method="post">
-      <fieldset id="fs-frm-inputs">
-        <label for="full-name">Full Name</label>
-        <input type="text" name="name" id="full-name" placeholder="First and Last" required=""><br><br>
-        <label for="email-address">Email Address</label>
-        <input type="email" name="_replyto" id="email-address" placeholder="Your email here" required="">
-        <br><br>
-        <label for="message">Message</label>
-        <textarea rows="5" name="message" id="message" placeholder="Write something..." required=""></textarea>
-        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-      </fieldset>
-      <input type="submit" value="Submit">
-    </form>
+    <div class="contact-form">
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xrgwgjzz"
+        method="post">
+        <fieldset id="fs-frm-inputs">
+          <label for="full-name">Full Name</label>
+          <input type="text" name="name" id="full-name" placeholder="First and Last" required=""><br><br>
+          <label for="email-address">Email Address</label>
+          <input type="email" name="_replyto" id="email-address" placeholder="Your email here" required="">
+          <br><br>
+          <label for="message">Message</label>
+          <textarea rows="5" name="message" id="message" placeholder="Write something..." required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </fieldset>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
   </div>
-</div>
   <main>
     <div class="content-wrapper" id="hero-area">
       <h1>Hi, my name is<br><span class="hero-name">Nico Floriani</span><span class="dot">.</span></h1>
       <h2>I'm a <span class="front-end">Front-End Developer</span> based in San Francisco</h2>
-      <h3>Let's Work Together<span class="dot">.</span></h2>
-        <p class="hero-p">I build intuitive and eye-catching digital experiences that <strong>solve people's problems</strong></p>
+      <h3>Let's Work Together<span class="dot">.</span></h3>
+        <p class="hero-p">I build intuitive and eye-catching digital experiences that <strong>solve people's
+            problems</strong></p>
         <p class="hero-p">I make sure brands have the interactions their customers need<br>
           <br>All we have are our experiences -
           <br><span id="right">Let's get them right<span class="dot">.</span></span>
@@ -79,96 +81,114 @@
           <path class="a2" d="M0 20 L30 52 L60 20"></path>
           <path class="a3" d="M0 40 L30 72 L60 40"></path>
         </svg>
-      </div>
+    </div>
 
     <div class="content-wrapper" id="projects">
-    <h3>Projects</h3>
-    <div id="myBtnContainer">
-      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-      <button class="btn" onclick="filterSelection('responsive')"> Responsive Website</button>
-      <button class="btn" onclick="filterSelection('javascript')"> JavaScript</button>
-      <button class="btn" onclick="filterSelection('react')"> React</button>
-    </div>
-    
-    <!-- Portfolio Gallery Grid -->
-    <div class="row">
-      <div class="column react">
-        <div class="content">
-          <a href="https://9qx4qr.csb.app/" target="_blank"><img src="img/hotel-filter.png" alt="A hotel booking component with filter options" style="width:100%"></a>
-          <h5>Hotel Booking App</h5>
-          <p>A hotel search tool that allows you to filter the type of hotel you want to stay in.<br><br>
-             The UI was rendered from an array data model, which responds to state changes with conditional rendering.
+      <h3>Projects</h3>
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('responsive')"> Responsive Website</button>
+        <button class="btn" onclick="filterSelection('javascript')"> JavaScript</button>
+        <button class="btn" onclick="filterSelection('react')"> React</button>
+      </div>
+
+      <!-- Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column react">
+          <div class="content">
+            <a href="https://9qx4qr.csb.app/" target="_blank"><img src="img/hotel-filter.png"
+                alt="A hotel booking component with filter options" style="width:100%"></a>
+            <h5>Hotel Booking App</h5>
+            <p>A hotel search tool that allows you to filter the type of hotel you want to stay in.<br><br>
+              The UI was rendered from an array data model, which responds to state changes with conditional rendering.
             </p>
-          <p><strong>Skills:<br>React<br>Managing Data Flow<br>Manipulating the DOM<br><br>
-            Tools:<br>CodeSandbox<br>GitHub</strong></p>
-          <a href="https://9qx4qr.csb.app/" target="_blank" class="button button5">Live Site</a>
+            <p><strong>Skills:<br>React<br>Managing Data Flow<br>Manipulating the DOM<br><br>
+                Tools:<br>CodeSandbox<br>GitHub</strong></p>
+            <a href="https://9qx4qr.csb.app/" target="_blank" class="button button5">Live Site</a>
+          </div>
+        </div>
+        <div class="column react">
+          <div class="content">
+            <a href="https://vmqjy7.csb.app/" target="_blank"><img src="img/sticky-notes.png"
+                alt="Sticky note generator with button to add new notes" style="width:100%"></a>
+            <h5>Sticky Note App</h5>
+            <p>An interactive app that will let users create “sticky notes” on their computer to keep track of to-do
+              items.<br><br>
+              The app allows a visitor to add, update, search for, and delete notes.
+            </p>
+            <p><strong>Skills:<br>React<br>Managing Data Flow<br>Manipulating the DOM<br><br>
+                Tools:<br>CodeSandbox<br>GitHub</strong></p>
+            <a href="https://vmqjy7.csb.app/" target="_blank" class="button button5">Live Site</a>
+          </div>
+        </div>
+        <div class="column react">
+          <div class="content">
+            <a href="https://rdlg3z.csb.app/" target="_blank"><img src="img/name-tags.png"
+                alt="Name tag generator with button to add new name tags" style="width:100%"></a>
+            <h5>Name Tags App</h5>
+            <p>A name tag generator to create bulk name tags.<br><br>It responds to user input to make it interactive,
+              and uses lifecycle methods for after the window is closed.
+            </p>
+            <p><strong>Skills:<br>React<br>Managing Data Flow<br>Component Lifecycle Methods<br><br>
+                Tools:<br>CodeSandbox<br>GitHub</strong></p>
+            <a href="https://rdlg3z.csb.app/" target="_blank" class="button button5">Live Site</a>
+          </div>
+        </div>
+        <div class="column javascript">
+          <div class="content">
+            <a href="https://nicofloriani.github.io/guess-the-word-game/" target="_blank"><img src="img/guess-word.png"
+                alt="A guess-the-word game" style="width:100%"></a>
+            <h5>Guess the Word Game</h5>
+            <p>Players guess the word by entering one letter at a time.<br><br>
+              Functions were written to add placeholders for the word, accept & validate player guesses, display the
+              word & guessed letters, fetch words & remaining guesses, and to play it again.
+            </p>
+            <p><strong>Skills:<br>JavaScript Fundamentals<br>Manipulating the DOM<br>Project Decomposition<br><br>
+                Tools:<br>GitHub<br>Visual Studio Code</strong></p>
+            <a href="https://nicofloriani.github.io/guess-the-word-game/" target="_blank" class="button button5">Live
+              Site</a>
+          </div>
+        </div>
+        <div class="column javascript">
+          <div class="content">
+            <a href="https://nicofloriani.github.io/github-repo-gallery/" target="_blank"><img
+                src="img/github-repo-gallery.png" alt="A github portfolio with a search field" style="width:100%"></a>
+            <h5>GitHub Repo Gallery</h5>
+            <p>The GitHub API is used to populate my account information, like my name, bio, location, and number of
+              public repos.<br><br>Users are able to use dynamic search functionality, and repos can be clicked on to
+              see more information and to get a link to the repo on GitHub.
+            </p>
+            <p><strong>Skills:<br>Vanilla JavaScript<br>Manipulating the DOM<br>APIs<br><br>
+                Tools:<br>GitHub<br>Visual Studio Code</strong></p>
+            <a href="https://nicofloriani.github.io/github-repo-gallery/" target="_blank" class="button button5">Live
+              Site</a>
+          </div>
+        </div>
+        <div class="column responsive">
+          <div class="content">
+            <a href="https://nicofloriani.github.io/unplugged-retreat/" target="_blank"><img src="img/unplugged.png"
+                alt="Website for a retreat with picture from behind of a woman looking into nature"
+                style="width:100%"></a>
+            <h5>Unplugged</h5>
+            <p>A 3-page responsive website from a design comp that adapts to mobile, tablet, and desktop
+              screens.<br><br>
+              The project was decomposed to figure out the Minimum Viable Product, for a timely ship date with a picture
+              perfect rendition.
+            </p>
+            <p><strong>Skills:<br>CSS3 & HTML5<br>Flexbox<br>Responsive Typography<br>Media Queries & Standard
+                Breakpoints<br><br>
+                Tools:<br>GitHub<br>Visual Studio Code</strong></p>
+            <a href="https://nicofloriani.github.io/unplugged-retreat/" target="_blank" class="button button5">Live
+              Site</a>
+          </div>
         </div>
       </div>
-      <div class="column react">
-        <div class="content">
-          <a href="https://vmqjy7.csb.app/" target="_blank"><img src="img/sticky-notes.png" alt="Sticky note generator with button to add new notes" style="width:100%"></a>
-          <h5>Sticky Note App</h5>
-          <p>An interactive app that will let users create “sticky notes” on their computer to keep track of to-do items.<br><br>
-            The app allows a visitor to add, update, search for, and delete notes.
-          </p>
-          <p><strong>Skills:<br>React<br>Managing Data Flow<br>Manipulating the DOM<br><br>
-          Tools:<br>CodeSandbox<br>GitHub</strong></p>
-          <a href="https://vmqjy7.csb.app/" target="_blank" class="button button5">Live Site</a>
-        </div>
-      </div>
-      <div class="column react">
-        <div class="content">
-          <a href="https://rdlg3z.csb.app/" target="_blank"><img src="img/name-tags.png" alt="Name tag generator with button to add new name tags" style="width:100%"></a>
-          <h5>Name Tags App</h5>
-          <p>A name tag generator to create bulk name tags.<br><br>It responds to user input to make it interactive, and uses lifecycle methods for after the window is closed.
-          </p>
-          <p><strong>Skills:<br>React<br>Managing Data Flow<br>Component Lifecycle Methods<br><br>
-            Tools:<br>CodeSandbox<br>GitHub</strong></p>
-          <a href="https://rdlg3z.csb.app/" target="_blank" class="button button5">Live Site</a>
-        </div>
-      </div>
-      <div class="column javascript">
-        <div class="content">
-          <a href="https://nicofloriani.github.io/guess-the-word-game/" target="_blank"><img src="img/guess-word.png" alt="A guess-the-word game" style="width:100%"></a>
-          <h5>Guess the Word Game</h5>
-          <p>Players guess the word by entering one letter at a time.<br><br>
-            Functions were written to add placeholders for the word, accept & validate player guesses, display the word & guessed letters, fetch words & remaining guesses, and to play it again.
-          </p>
-          <p><strong>Skills:<br>JavaScript Fundamentals<br>Manipulating the DOM<br>Project Decomposition<br><br>
-            Tools:<br>GitHub<br>Visual Studio Code</strong></p>
-          <a href="https://nicofloriani.github.io/guess-the-word-game/" target="_blank" class="button button5">Live Site</a>
-        </div>
-      </div>
-      <div class="column javascript">
-        <div class="content">
-          <a href="https://nicofloriani.github.io/github-repo-gallery/" target="_blank"><img src="img/github-repo-gallery.png" alt="A github portfolio with a search field" style="width:100%"></a>
-          <h5>GitHub Repo Gallery</h5>
-          <p>The GitHub API is used to populate my account information, like my name, bio, location, and number of public repos.<br><br>Users are able to use dynamic search functionality, and repos can be clicked on to see more information and to get a link to the repo on GitHub.
-          </p>
-          <p><strong>Skills:<br>Vanilla JavaScript<br>Manipulating the DOM<br>APIs<br><br>
-          Tools:<br>GitHub<br>Visual Studio Code</strong></p>
-          <a href="https://nicofloriani.github.io/github-repo-gallery/" target="_blank" class="button button5">Live Site</a>
-        </div>
-      </div>
-      <div class="column responsive">
-        <div class="content">
-          <a href="https://nicofloriani.github.io/unplugged-retreat/" target="_blank"><img src="img/unplugged.png" alt="Website for a retreat with picture from behind of a woman looking into nature" style="width:100%"></a>
-          <h5>Unplugged</h5>
-          <p>A 3-page responsive website from a design comp that adapts to mobile, tablet, and desktop screens.<br><br>
-            The project was decomposed to figure out the Minimum Viable Product, for a timely ship date with a picture perfect rendition.
-          </p>
-          <p><strong>Skills:<br>CSS3 & HTML5<br>Flexbox<br>Responsive Typography<br>Media Queries & Standard Breakpoints<br><br>
-          Tools:<br>GitHub<br>Visual Studio Code</strong></p>
-          <a href="https://nicofloriani.github.io/unplugged-retreat/" target="_blank" class="button button5">Live Site</a>
-        </div>
-      </div>
-      </div>
-    <!-- END GRID -->
-    <svg class="arrows">
-      <path class="a1" d="M0 0 L30 32 L60 0"></path>
-      <path class="a2" d="M0 20 L30 52 L60 20"></path>
-      <path class="a3" d="M0 40 L30 72 L60 40"></path>
-    </svg>
+      <!-- END GRID -->
+      <svg class="arrows">
+        <path class="a1" d="M0 0 L30 32 L60 0"></path>
+        <path class="a2" d="M0 20 L30 52 L60 20"></path>
+        <path class="a3" d="M0 40 L30 72 L60 40"></path>
+      </svg>
     </div><!--  End Content Wrapper-->
     <div class="content-wrapper" id="skills">
       <h3>Skills</h3>
@@ -197,48 +217,56 @@
         </svg>
       </div>
     </div>
-</main>
-<footer>
-  <div class="content-wrapper" id="about">
-    <h3>About Me</h3>
-    <div class="footer-content">
-      <div class="social">
-        <img src="img/suitlaugh-copy.png" alt="Man in blue suit sitting and laughing" id="suitLaugh">
-        <div class="social-icons">
-          <p><a href="https://github.com/nicofloriani" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a></p>
-          <p><a href="https://www.linkedin.com/in/nico-floriani-92a355237/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a></p>
+  </main>
+  <footer>
+    <div class="content-wrapper" id="about">
+      <h3>About Me</h3>
+      <div class="footer-content">
+        <div class="social">
+          <img src="img/suitlaugh-copy.png" alt="Man in blue suit sitting and laughing" id="suitLaugh">
+          <div class="social-icons">
+            <p><a href="https://github.com/nicofloriani" target="_blank" rel="noopener"><i
+                  class="fa-brands fa-github"></i></a></p>
+            <p><a href="https://www.linkedin.com/in/nico-floriani-92a355237/" target="_blank" rel="noopener"><i
+                  class="fa-brands fa-linkedin-in"></i></a></p>
+          </div>
         </div>
       </div>
-    </div>
-      <p class="about-p">I'm a <strong>Front-End Developer</strong> and a lifelong learner with many interests.  Because of that I was drawn to coding, with all the possible applications.  I'm always learning more about programming languages and frameworks, without using tech for tech's sake.  When not working I can be found being silly with my family, traveling, hiking, surfing, and perfecting how to cook new (and old) things.
-        <br><br>Whether it's robotics, copywriting, education apps, or other eclectic interests, what matters about learning things is how they make life more useful and fun. That's how I approach development.  I also put a lot of emphasis on soft skills, like effective communication, productive time management, considerate conflict resolution, and decisive collaboration.  After all, life should be <em>easier.</em>
+      <p class="about-p">I'm a <strong>Front-End Developer</strong> and a lifelong learner with many interests. Because
+        of that I was drawn to coding, with all the possible applications. I'm always learning more about programming
+        languages and frameworks, without using tech for tech's sake. When not working I can be found being silly with
+        my family, traveling, hiking, surfing, and perfecting how to cook new (and old) things.
+        <br><br>Whether it's robotics, copywriting, education apps, or other eclectic interests, what matters about
+        learning things is how they make life more useful and fun. That's how I approach development. I also put a lot
+        of emphasis on soft skills, like effective communication, productive time management, considerate conflict
+        resolution, and decisive collaboration. After all, life should be <em>easier.</em>
         <br><br><strong>Let's make something great together!</strong>
       </p>
-  </div> <!--footer content-wrapper ends-->
-  <div class="content-wrapper"></div>
-  <div>
-    <button id="button-56" role="button">Hire Me!</button>
-  </div>
-  <div class="loadingContainer">
-    <div class="ball1"></div>
-    <div class="ball2"></div>
-    <div class="ball3"></div>
-    <div class="ball4"></div>
-  </div>
-  <div class="copyright">
-    <p>Nico Floriani | 2023</p>
-  </div><!--copyright ends-->
-</footer>
-    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-  
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-      ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
-  </body>
-  
-  </html>
+    </div> <!--footer content-wrapper ends-->
+    <div class="content-wrapper"></div>
+    <div>
+      <button id="button-56">Hire Me!</button>
+    </div>
+    <div class="loadingContainer">
+      <div class="ball1"></div>
+      <div class="ball2"></div>
+      <div class="ball3"></div>
+      <div class="ball4"></div>
+    </div>
+    <div class="copyright">
+      <p>Nico Floriani | 2023</p>
+    </div><!--copyright ends-->
+  </footer>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
