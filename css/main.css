@@ -543,24 +543,35 @@
   }
 
   .skills-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #351D77;
-    font-size: 6em;
-    padding: 100px 0;
   }
   
   .skills-icons ul li {
-    margin-bottom: 20px;
+    margin: 20px;
+  }
+
+  .skills-icons ul li i {
+    font-size: 6em;
+  }
+
+  .skills-icons ul li p {
+    font-size: 1.3em;
+    font-weight: 600;
   }
 
   .skills-tools h4 {
     font-size: 1.5em;
     font-weight: 700;
+    margin-top: 50px;
   }
   
   .skills-tools ul li {
     color: #351D77;
     margin-bottom: 20px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 600;
   }
 
@@ -819,6 +830,10 @@
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+  }
+
+  .skills-icons ul li {
+    width: 25%;
   }
 
   #button-56 {
